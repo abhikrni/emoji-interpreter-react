@@ -41,22 +41,12 @@ export default function App() {
       <input
         onChange={changeHandler}
         value={emoji}
-        placeholder={"Search your emoji"}
-        style={{
-          padding: "1em",
-          minWidth: "80%"
-        }}
+        placeholder={"Search your flag"}
       />
       <h2> {emoji} </h2>
       <h3> {meaning} </h3>
       {emojis.map((emoji) => (
-        <span
-          onClick={() => emojiClickHandler(emoji)}
-          style={{ fontSize: "2rem", padding: "0.5rem", cursor: "pointer" }}
-        >
-          {" "}
-          {emoji}{" "}
-        </span>
+        <span onClick={() => emojiClickHandler(emoji)}>{emoji}</span>
       ))}
     </div>
   );

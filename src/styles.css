@@ -1,4 +1,17 @@
 .App {
-    font-family: sans-serif;
+    font-family: Georgia, serif;
     text-align: center;
+    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+    height: 100vh;
+}
+
+input {
+    padding: 1em;
+    min-width: 80%;
+}
+
+span {
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
 }

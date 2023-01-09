@@ -5,6 +5,6 @@
 React.js, HTML, CSS, JavaScript
 
 ### Screenshot
-![flag emoji app](/emoji_app_screenshot.png)
+![flag emoji app](/tv_series_app.png)
 
 ### [live App link](https://7srwxt.csb.app/)
